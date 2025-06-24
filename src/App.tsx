@@ -18,7 +18,7 @@ function App() {
       ></div>
 
       {/* 3D Model - positioned behind content but above background */}
-      <div className="absolute inset-0 z-0 flex items-center justify-center opacity-100 border-2 border-white mix-blend-screen">
+      <div className="absolute inset-0 z-0 flex items-center justify-center opacity-100 mix-blend-screen">
         <Suspense fallback={<div className="w-full h-full"></div>}>
           <Spline
             scene="https://prod.spline.design/PNsGO-iV5PCTFW2B/scene.splinecode"
@@ -41,34 +41,34 @@ function App() {
               <img src={logo} alt="Logo" className="w-12 h-12" />
             </div>
 
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8 px-8 py-2 justify-center ml-24">
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors duration-200"
+                className="text-white hover:text-white transition-colors duration-200"
               >
                 Products
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors duration-200"
+                className="text-white hover:text-white transition-colors duration-200"
               >
                 Solutions
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors duration-200"
+                className="text-white hover:text-white transition-colors duration-200"
               >
                 Company
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors duration-200"
+                className="text-white hover:text-white transition-colors duration-200"
               >
                 Resources
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors duration-200"
+                className="text-white hover:text-white transition-colors duration-200"
               >
                 Pricing
               </a>
