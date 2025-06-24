@@ -24,6 +24,7 @@ function App() {
             scene="https://prod.spline.design/PNsGO-iV5PCTFW2B/scene.splinecode"
             style={{
               width: "1300px",
+              transform: "scale(2.0)",
               height: "1000px",
               top: "10%",
               position: "relative",
