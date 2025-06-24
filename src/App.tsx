@@ -41,7 +41,7 @@ function App() {
               <img src={logo} alt="Logo" className="w-12 h-12" />
             </div>
 
-            <div className="hidden md:flex items-center space-x-8 px-8 py-2 justify-center ml-24">
+            <div className="hidden md:flex items-center space-x-8 px-8 py-2 justify-center ml-[125px]">
               <a
                 href="#"
                 className="text-white hover:text-white transition-colors duration-200"
